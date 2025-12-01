@@ -1,5 +1,5 @@
 # api-blender
-
+```
 bpy.data  (ALMACÉN CENTRAL)
 ├── meshes  (GEOMETRÍAS)
 │   ├── "Cube" ←───────────────┐
@@ -15,12 +15,12 @@ bpy.data  (ALMACÉN CENTRAL)
 ├── textures   (TEXTURAS)
 ├── images     (IMÁGENES)
 └── ... etc.
-
+```
 
 # DATA
-
+```
 ## Objetos 3D (entidades en la escena)
-bpy.data.objects           # Todos los objetos (meshes, cámaras, luces, etc.)
+bpy.data.objects          # Todos los objetos (meshes, cámaras, luces, etc.)
 bpy.data.meshes           # Geometrías de malla
 bpy.data.curves           # Curvas (Bézier, NURBS)
 bpy.data.armatures        # Armaduras/Esqueletos
@@ -68,3 +68,4 @@ bpy.data.cloth            # Configuraciones de tela
 bpy.data.fluids           # Fluidos
 bpy.data.smoke            # Humo
 bpy.data.soft_body        # Cuerpo suave
+```
