@@ -2,7 +2,7 @@ import bpy
 import bmesh
 
 # Crear nueva malla
-mesh = bpy.data.meshes.new("PuntosMesh")
+mesh = bpy.data.meshes.new("MiMalla")
 obj = bpy.data.objects.new("PuntosObject", mesh)
 
 # Crear bmesh
@@ -19,4 +19,4 @@ bm.to_mesh(mesh)
 bm.free()
 
 # Añadir a escena
-bpy.context.collection.objects.link(obj
+bpy.context.collection.objects.link(obj)
